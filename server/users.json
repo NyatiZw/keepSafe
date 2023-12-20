@@ -1,0 +1,26 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"username": "Simba_hanga",
+			"role": "driver"
+		},
+		{
+			"id": 2,
+			"username": "Kgomotso_sebolao",
+			"role": "parent"
+		},
+		{
+			"id": 3,
+			"username": "School_A",
+			"role": "school",
+			"isAdmin": true
+		},
+		{
+			"id": 4,
+			"username": "Taxi_Association_I",
+			"role": "association",
+			"isAdmin": true
+		}
+	]
+}
