@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const studentSchema = new mongoose.Schema({
 	name: String,
 	age: Number,
+	school: String,
 	address: {
 		type: {
 			type: String,
@@ -13,6 +14,12 @@ const studentSchema = new mongoose.Schema({
 		coordinates: {
 			type: [Number],
 			default: [0, 0],
+		},
+	},
+	driver: {
+		registrationNumber: {
+			type: String,
+			unique: true,
 		},
 	},
 });
