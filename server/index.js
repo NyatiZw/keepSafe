@@ -6,19 +6,18 @@ const path = require('path');
 //const mongoose = require('mongoose');
 
 const app = express();
+const PORT = process.env.PORT || 3001;
 
-
-const PORT = 3001;
 
 //mongoose.connect('mongodb://localhost/keepSafeDB', {
 //	useNewUrlParser: true,
 //	useUnifiedTopology: true,
 //});
 
-app.use(express.static(path.join(__dirname, 'src/')));
+app.use(express.static(path.join(__dirname, 'build/')));
 
-app.get("/", (req, res) => {
-	res.sendFile(path.join(__dirname, 'public/', 'index.html'));;
+app.get("*", (req, res) => {
+	res.sendFile(path.join(__dirname, 'build/', 'index.html'));;
 });
 
 app.listen(PORT, '0.0.0.0', () => {
