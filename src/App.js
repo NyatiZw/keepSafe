@@ -8,9 +8,11 @@ import ParentSide from "./components/ParentSide.js";
 
 function App() {
 	return (
-		<div>
-		  <h1>Hello Welcome to KeepSafe!</h1>
+		<div id="header-div-keepsafe">
+		  <h1>Hello Welcome to KeepSafe!
+		  </h1>
 		  <DriverSide />
+		    <br />
 		  <ParentSide />
 		</div>
 	);
