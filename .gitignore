@@ -1,16 +1,31 @@
------BEGIN PRIVATE KEY-----
-MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAM1Ad02Mwu931GvC
-Y1OsF/rQUbcyWgTsndkwtoSGkmt45Caf2NIEQbKNhsyVXZ0fl0qENAXN9XRn0R3l
-/zggfKTHBUgIvUhNawGCRGGeLPxS4l919/E1+XlIHEsKB1lkt6jrxwqM6aJyIRIF
-2ChDE98o4+QmG4Qfvi0heJPutzu5AgMBAAECgYAvI/tCqG2tKkxzY3YEpaXsSSQ7
-eykJsH6gf3ur/Gxsmptr85KMycV9CNxI6JVTnQnWZ367Ro51adKxlz2C2pNFq6qG
-JDLlI5mC6S9cdGBIDiVia2mCUYnzHtx58yPc33U43tpgUd3IWOHYQ9xGF4RrsT7j
-6eZc45l7o0tZBplIsQJBAPJlcB3wnFB3k96XTv+zh8uwn5HsO4ajw+upDTvF4Ojp
-EkzbI6cuOqzVoBjlqaKgQ6e5De3pb2dKJW6/JF0prOMCQQDYxV2ellxIFHLU9bOn
-CKcaDGQaiiZKx9pbKhgw8Ama3Idy2a8KOpXZqqsttBPA/uFGnezcP0ytMBSK8Y5J
-D5OzAkAIC2PIKpcVeJJ4va7Kf6vPD8KL9joXgtHavVaKGEwZjrqjwFYTk04xNDnG
-+cBCfG0iYNrcfXXMCMLrRP6w9NQfAkBvs4xhiyO0dO0TdiUEPr40+wuebW/7+u43
-KgLbPOYGKfuWIDxFrhjH2F1rKK9BNVYKmJiUif3OBMehLYZfeapnAkA9eligRGFY
-JSi6t0AuR2ptJNErNz5bQYxz8U9XoRR+JMwLmJoeVWxxsw/UoVPdFRgjzQYZRJne
-cGmPP0gQLt8L
------END PRIVATE KEY-----
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#mapbox keys
+.csr
+.pem
+.pem
+
+#MongoDB
+keepSafeDB.db
