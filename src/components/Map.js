@@ -11,7 +11,7 @@ const Map = () => {
 		const map = new mapboxgl.Map({
 			container: 'map',
 			//style: 'mapbox://styles/mapbox/navigation-day-v1'
-			center: [27.9, -26],
+			center: [28, -26.2],
 			zoom: 9,
 		});
 
