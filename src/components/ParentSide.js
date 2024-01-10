@@ -1,9 +1,11 @@
 // src/components/ParentSide.js
+import Map from './Map.js';
 
 function ParentSide() {
 	return (
 		<div>
-		  <button>Parents Enter Here</button>
+		  <h2>ParentSide Tracking</h2>
+		  <Map />
 		</div>
 	);
 }
